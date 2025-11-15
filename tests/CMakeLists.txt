@@ -10,6 +10,9 @@ qt_add_qml_module(tester
      ../include/Cpu.hpp
      ../src/Cpu.cpp
 
+     ../include/Ram.hpp
+     ../src/Ram.cpp
+
 
 )
 target_include_directories(tester PRIVATE ../include)

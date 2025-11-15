@@ -19,6 +19,9 @@ qt_add_qml_module(hardwareinfo
    SOURCES
      ./include/Cpu.hpp
      ./src/Cpu.cpp
+
+     ./include/Ram.hpp
+     ./src/Ram.cpp
 )
 target_include_directories(hardwareinfo PRIVATE  ./include)
 
